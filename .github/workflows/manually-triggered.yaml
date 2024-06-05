@@ -28,7 +28,11 @@ on:
         description: "Environment"
         type: environment
         required: true
-        default: "staging"
+        options:
+          - dev
+          - qa
+          - staging
+          - prod
 
 jobs:
   log-info:
