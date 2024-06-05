@@ -28,6 +28,7 @@ on:
         description: "Environment"
         type: environment
         required: true
+        default: staging
 
 jobs:
   log-info:
@@ -40,4 +41,3 @@ jobs:
           echo "Option: ${{ inputs.option }}"
           echo "Boolean: ${{ inputs.boolean }}"
           echo "Environment: ${{ inputs.environment }}"
-          
