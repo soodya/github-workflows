@@ -1,4 +1,4 @@
-name: Environment Variables
+name: Setting Environment Variables
 on: [push]
 
 env:
