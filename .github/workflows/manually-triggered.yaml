@@ -24,15 +24,15 @@ on:
         description: A boolean option
         required: false
         type: boolean
-      environment:
-        description: "Environment"
-        type: environment
-        required: true
-        options:
-          - dev
-          - qa
-          - staging
-          - prod
+    #   environment:
+    #     description: "Environment"
+    #     type: environment
+    #     required: true
+    #     options:
+    #       - dev
+    #       - qa
+    #       - staging
+    #       - prod
 
 jobs:
   log-info:
